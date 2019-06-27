@@ -1,6 +1,6 @@
 ## Features
 
-* Support most popular format RSS and ATom
+* Support most popular format RSS and Atom
 * Full support cyrillic text and letter 
 * Filter by read/unread notifications
 * Convenient UI
