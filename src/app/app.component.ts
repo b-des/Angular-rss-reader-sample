@@ -1,8 +1,8 @@
 /// <reference path="./parser/rss-parser.d.ts" />
 
 import {Component, Inject, OnInit} from '@angular/core';
-import {FeedModel} from './parser/shared/feed.model';
-import {RssService} from './parser/shared/rss.service';
+import {FeedModel} from './parser/feed.model';
+import {RssService} from './parser/rss.service';
 import {from} from 'rxjs';
 import {filter, map, toArray} from 'rxjs/operators';
 import {RSSEntry,  RSSFeed} from 'rss-parser';
