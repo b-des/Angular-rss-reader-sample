@@ -19,7 +19,15 @@
     "@angular/platform-browser": "~7.2.0",
     "@angular/platform-browser-dynamic": "~7.2.0",
     "@angular/router": "~7.2.0",
+    "angular-2-local-storage": "^3.0.2",
+    "angular-webstorage-service": "^1.0.2",
+    "chart.js": "^2.8.0",
     "core-js": "^2.5.4",
+    "js-md5": "^0.7.3",
+    "ng2-charts": "^2.3.0",
+    "ng2-charts-x": "^2.0.6",
+    "ngx-xml2json": "^1.0.2",
+    "rss-to-json": "^1.0.4",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"
@@ -44,5 +52,17 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "~3.2.2"
+  },
+  "browser": {
+    "crypto": false,
+    "http": false,
+    "https": false,
+    "net": false,
+    "path": false,
+    "stream": false,
+    "tls": false,
+    "zlib": false,
+    "timers": false,
+    "fs": false
   }
 }

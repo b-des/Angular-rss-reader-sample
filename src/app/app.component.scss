@@ -1,0 +1,17 @@
+.section {
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    padding: 10px;
+    margin: .5rem 0 1rem 0;
+}
+
+.collection a, .collection li{
+    cursor: pointer;
+}
+.collection.with-header .collection-item.avatar {
+    padding-left: 20px !important;
+}
+
+.collection .collection-item.avatar{
+  min-height: 10px !important;
+}
