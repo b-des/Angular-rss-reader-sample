@@ -13,6 +13,8 @@
 }
 
 .collection .collection-item.avatar{
-  min-height: 10px !important;
+    min-height: 10px !important;
 }
-
+.collection a.collection-item:not(.active):hover {
+    background-color: #eafbff;
+}

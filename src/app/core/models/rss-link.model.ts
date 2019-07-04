@@ -1,4 +1,4 @@
-export class FeedModel {
+export class RssLinkModel {
     name: string;
     url: string;
     constructor(name: string, url: string) {
