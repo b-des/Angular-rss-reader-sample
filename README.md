@@ -1,3 +1,7 @@
+## Updated
+
+Refactored app for using router
+
 ## Features
 
 * Support most popular format RSS and Atom
